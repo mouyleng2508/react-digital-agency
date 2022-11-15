@@ -15,7 +15,7 @@ class Navbar extends Component {
                 <div className={`w-full flex items-center justify-between px-4 lg:px-20 py-3   fixed z-5 navbar ${scrollPosition === 0 ? '' : ' bg-white filter drop-shadow-lg '}`}>
                     <div className='flex items-center justify-between'>
                         <img
-                            class="md:h-10 h-8"
+                            className="md:h-10 h-8"
                             src={logo}
                             alt="Logo.gif"
                         />
@@ -30,7 +30,7 @@ class Navbar extends Component {
 
                             <div>
                                 <button
-                                    class="bg-primary px-6 py-2 rounded-full text-white text-xs"
+                                    className="bg-primary px-6 py-2 rounded-full text-white text-xs"
                                 >
                                     Contact
                                 </button>
