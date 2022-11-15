@@ -1,9 +1,14 @@
+
 import HomeSection from "../components/Index/HomeSection";
 
 export default function Home() {
-    return <div>
-        <div className="relative">
+    return <body>
+        <div className="">
             <HomeSection />
         </div>
-    </div>
+
+        <div>heyyy</div>
+
+        {/* <AboutSection /> */}
+    </body>
 }
